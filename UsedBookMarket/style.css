@@ -1,0 +1,39 @@
+
+  #login {margin-left:79%;width:19%;height:40px;text-align:right;}
+  #login a{text-decoration: none;font-size:1.15em}
+  #login a:link{color:black}
+  #login a:visited{color:black}
+  #login a:active{color:blue}
+
+  #wrapper {width:100%;height:100em;text-align:center}
+
+  #menubar {width:100%-10px;height:45px;text-align:left;background-color:rgb(250,236,197);padding-top:15px}
+  #menubar a{font-size:20px;text-decoration:none; color:black;margin-left:11%}
+  #menubar a:active{color:blue}
+
+  #imagebox{margin:40px auto; border:1px solid gray; width:300px;height:180px}
+
+  #loginbox{margin:40px auto;width:25em;height:15em;text-align:right}
+  #loginbox .loginbutton{width:70px;height:66px}
+  #loginbox a{text-decoration: none}
+
+  #agreementWrapper {margin:20px auto ;width:70%;height:37em;text-align:left;padding:20px;border:1px solid gray}
+  #agreementWrapper .agreementContent{margin:10px auto;width:99%;height:100px; border:1px solid gray;padding:5px;overflow:scroll}
+
+  #joinWrapper{width:100%;height:60em;}
+  #joinWrapper .joinContent {border:gray solid 1px;line-height:2em;background-color:rgb(246,246,246);margin:5px auto;
+                width:400px;padding:10px;font-size:1.05em;}
+  #joinWrapper .button{width:80px}
+
+  #Checkfile{border:1px solid gray;display:block;float:right;margin:0px 15px 0 0;
+  width:250px;height:50px;background-color:rgb(212,244,250);}
+
+
+  .mybutton{background-color:#B2EBF4;padding:4.6px;padding-bottom:4.4px;border:2.3px solid gray;border-radius:2px;}
+  .mybutton:active{background-color:black}
+
+  .like{float:left;background-color:rgb(212,244,250);border: 2.3px solid gray;height:2.6em;margin-left:10px;border-radius:2px;}
+  .like:active{background-color:black}
+
+  #paging .pnumber{border:1px solid gray; margin-left:5px; background-color:rgb(213,213,213);padding:1px 4px 1px 4px}
+  #paging a:hover{background-color:gray}

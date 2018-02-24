@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>팝업창</title>
+  <meta charset="utf-8">
+ <style>
+ div{background-color: #DFDFDF}
+
+ </style>
+
+ <script>
+  function setCookie(name,value,expiredays){
+    var todayDate=new Date();
+    todayDate.setDate(todayDate.getDate()+expiredays);
+    document.cookie=name+"="+escape(value)+ "; path=/; expires="+todayDate.toGMTString()+";";
+  }
+
+  function closeWin(){
+    if(document.pop.Notice.checked)
+    setCookie("Notice","done",1);
+    self.close();
+  }
+
+ </script>
+</head>
+<body>
+  <div style="text-align:center;height:27em"/>
+  <image src="./image/unicef1.jpg"><br>
+    유니세프는 190개의 국가 및 영토에서<font style="color:red"> 어린이들의 생명을 구하고</font>,<br><font style="color:red">어린이의 삶을 개선</font>하기 위한 다양한 사업을 펼치고 있습니다.<br>
+  <p style="margin:5px"><a style=";text-decoration:none"href="#" onclick="window.open('http://www.unicef.or.kr','_blank')">더 알아보기</a></p>
+  <form name="pop">
+    <div style="margin:18px auto;border:1px solid gray;width:28em"></div>
+    <input id="close" type="checkbox" name="Notice" value="">
+      <label for="close">하루동안 공지창 띄우지 않기&nbsp&nbsp&nbsp&nbsp</label>
+    <input type="button" value="닫기" onclick="closeWin()">
+
+</div>
+</body>
+<!--나이지리아, 소말리아, 남수단 예맨의 약 140만명의 어린이가 심각한 영양실조로 인한 죽음의 위기에 처해있습니다.-->
+
+</html>
