@@ -1,7 +1,7 @@
 # 프로젝트명
 > 점심한끼 (LunchOnMeal)
 
-![](https://jungwoo-public.s3.ap-northeast-2.amazonaws.com/gifs/UserBookMarket.gif)
+![](./UserBookMarket.gif)
 
 
 # 프로젝트 내용
